@@ -12,11 +12,11 @@ const Signup = () => {
   const [error, setError] = useState('');
   const [passwordVisible, setPasswordVisible] = useState(false);
 
-  const handleChange = e => {
+  const handleChange =(e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     try {
