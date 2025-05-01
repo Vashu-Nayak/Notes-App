@@ -1,4 +1,4 @@
-# Authenticated Notes Dashboard
+#  Notes App
 
 ## Overview
 The Authenticated Notes Dashboard is a full-stack web application that allows users to securely create, edit, delete, and view their notes. It includes user authentication, a responsive UI with dark/light mode, and state management using Redux. The backend is powered by Node.js and MongoDB, while the frontend is built with React and styled using TailwindCSS.
