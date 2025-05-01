@@ -1,2 +1,2 @@
 export const BASE_URL =
-  location.hostname === "localhost" ? "http://localhost:8080" : "";
+  location.hostname === "localhost" ? "http://localhost:3000" : "";
